@@ -209,6 +209,7 @@ const u16 gGrasslandPage27[] =
 	SPECIES_CYNDAQUIL,
 	SPECIES_QUILAVA,
 	SPECIES_TYPHLOSION,
+	SPECIES_TYPHLOSION_H,
 };
 
 const u16 gGrasslandPage28[] =
@@ -435,6 +436,17 @@ const u16 gGrasslandPage57[] =
 	SPECIES_MORPEKO_HANGRY,
 };
 
+const u16 gGrasslandPage58[] =
+{
+	SPECIES_KLEAVOR,
+};
+
+const u16 gGrasslandPage59[] =
+{
+	SPECIES_GROWLITHE_H,
+	SPECIES_ARCANINE_H,
+};
+
 const u16 gForestPage1[] =
 {
 	SPECIES_CATERPIE,
@@ -623,6 +635,7 @@ const u16 gForestPage22[] =
 	SPECIES_AMBIPOM,
 	SPECIES_STANTLER,
 	SPECIES_KECLEON,
+	SPECIES_WYRDEER,
 };
 
 const u16 gForestPage23[] =
@@ -864,6 +877,7 @@ const u16 gForestPage55[] =
 	SPECIES_ROWLET,
 	SPECIES_DARTRIX,
 	SPECIES_DECIDUEYE,
+	SPECIES_DECIDUEYE_H,
 };
 
 const u16 gForestPage56[] =
@@ -937,6 +951,19 @@ const u16 gForestPage65[] =
 	SPECIES_IMPIDIMP,
 	SPECIES_MORGREM,
 	SPECIES_GRIMMSNARL,
+};
+
+const u16 gForestPage66[] =
+{
+	SPECIES_ZORUA_H,
+	SPECIES_ZOROARK_H,
+};
+
+const u16 gForestPage67[] =
+{
+	SPECIES_SNEASEL_H,
+	SPECIES_SNEASLER,
+	SPECIES_LILLIGANT_H,
 };
 
 const u16 gWatersEdgePage1[] =
@@ -1089,6 +1116,7 @@ const u16 gWatersEdgePage22[] =
 	SPECIES_OSHAWOTT,
 	SPECIES_DEWOTT,
 	SPECIES_SAMUROTT,
+	SPECIES_SAMUROTT_H,
 };
 
 const u16 gWatersEdgePage23[] =
@@ -1102,6 +1130,8 @@ const u16 gWatersEdgePage24[] =
 {
 	SPECIES_BASCULIN_RED,
 	SPECIES_BASCULIN_BLUE,
+	SPECIES_BASCULIN_H,
+	SPECIES_BASCULEGION,
 };
 
 const u16 gWatersEdgePage25[] =
@@ -1202,6 +1232,11 @@ const u16 gWatersEdgePage38[] =
 	SPECIES_DREEPY,
 	SPECIES_DRAKLOAK,
 	SPECIES_DRAGAPULT,
+};
+const u16 gWatersEdgePage39[] =
+{
+	SPECIES_SLIGGOO_H,
+	SPECIES_GOODRA_H,
 };
 
 const u16 gSeaPage1[] =
@@ -1351,6 +1386,12 @@ const u16 gSeaPage22[] =
 	SPECIES_CRAMORANT,
 	SPECIES_CRAMORANT_GULPING,
 	SPECIES_CRAMORANT_GORGING,
+};
+
+const u16 gSeaPage23[] =
+{
+	SPECIES_QWILFISH_H,
+	SPECIES_OVERQWIL,
 };
 
 const u16 gCavePage1[] =
@@ -1594,6 +1635,11 @@ const u16 gCavePage35[] =
 	SPECIES_REGIDRAGO,
 };
 
+const u16 gCavePage36[] =
+{
+	SPECIES_AVALUGG_H,
+};
+
 const u16 gMountainPage1[] =
 {
 	SPECIES_GEODUDE,
@@ -1672,11 +1718,12 @@ const u16 gMountainPage11[] =
 	SPECIES_SHUCKLE,
 	SPECIES_TEDDIURSA,
 	SPECIES_URSARING,
-	SPECIES_DELIBIRD,
+	SPECIES_URSALUNA,
 };
 
 const u16 gMountainPage12[] =
 {
+	SPECIES_DELIBIRD,
 	SPECIES_GLIGAR,
 	SPECIES_GLISCOR,
 	SPECIES_SPINDA,
@@ -1794,14 +1841,15 @@ const u16 gMountainPage29[] =
 {
 	SPECIES_RUFFLET,
 	SPECIES_BRAVIARY,
-	SPECIES_VULLABY,
-	SPECIES_MANDIBUZZ,
+	SPECIES_BRAVIARY_H,
 };
 
 const u16 gMountainPage30[] =
 {
 	SPECIES_HEATMOR,
 	SPECIES_DURANT,
+	SPECIES_VULLABY,
+	SPECIES_MANDIBUZZ,
 };
 
 const u16 gMountainPage31[] =
@@ -2174,6 +2222,8 @@ const u16 gUrbanPage13[] =
 {
 	SPECIES_VOLTORB,
 	SPECIES_ELECTRODE,
+	SPECIES_VOLTORB_H,
+	SPECIES_ELECTRODE_H,
 };
 
 const u16 gUrbanPage14[] =
@@ -2349,6 +2399,7 @@ const u16 gRarePage2[] =
 {
 	SPECIES_LUGIA,
 	SPECIES_HO_OH,
+	SPECIES_LUGIA_S,
 };
 
 const u16 gRarePage3[] =
@@ -2431,6 +2482,7 @@ const u16 gRarePage14[] =
 	SPECIES_TORNADUS,
 	SPECIES_THUNDURUS,
 	SPECIES_LANDORUS,
+	SPECIES_ENAMORUS,
 };
 
 const u16 gRarePage15[] =
@@ -2438,6 +2490,7 @@ const u16 gRarePage15[] =
 	SPECIES_TORNADUS_THERIAN,
 	SPECIES_THUNDURUS_THERIAN,
 	SPECIES_LANDORUS_THERIAN,
+	SPECIES_ENAMORUS_T,
 };
 
 const u16 gRarePage16[] =
@@ -2599,6 +2652,2006 @@ const u16 gRarePage37[] =
 	SPECIES_CALYREX_SHADOW_RIDER,
 };
 
+const u16 gRarePage38[] =
+{
+	SPECIES_S1,
+	SPECIES_S2,
+	SPECIES_S3,
+	SPECIES_S4,
+};
+
+const u16 gRarePage39[] =
+{
+	SPECIES_S5,
+	SPECIES_S6,
+	SPECIES_S7,
+	SPECIES_S8,
+};
+
+const u16 gRarePage40[] =
+{
+	SPECIES_S9,
+	SPECIES_S10,
+	SPECIES_S11,
+	SPECIES_S12,
+};
+
+const u16 gRarePage41[] =
+{
+	SPECIES_S13,
+	SPECIES_S14,
+	SPECIES_S15,
+	SPECIES_S16,
+};
+
+const u16 gRarePage42[] =
+{
+	SPECIES_S17,
+	SPECIES_S18,
+	SPECIES_S19,
+	SPECIES_S20,
+};
+
+const u16 gRarePage43[] =
+{
+	SPECIES_S21,
+	SPECIES_S22,
+	SPECIES_S23,
+	SPECIES_S24,
+};
+
+const u16 gRarePage44[] =
+{
+	SPECIES_S25,
+	SPECIES_S26,
+	SPECIES_S27,
+	SPECIES_S28,
+};
+
+const u16 gRarePage45[] =
+{
+	SPECIES_S29,
+	SPECIES_S30,
+	SPECIES_S31,
+	SPECIES_S32,
+};
+
+const u16 gRarePage46[] =
+{
+	SPECIES_S33,
+	SPECIES_S34,
+	SPECIES_S35,
+	SPECIES_S36,
+};
+
+const u16 gRarePage47[] =
+{
+	SPECIES_S37,
+	SPECIES_S38,
+	SPECIES_S39,
+	SPECIES_S40,
+};
+
+const u16 gRarePage48[] =
+{
+	SPECIES_S41,
+	SPECIES_S42,
+	SPECIES_S43,
+	SPECIES_S44,
+};
+
+const u16 gRarePage49[] =
+{
+	SPECIES_S45,
+	SPECIES_S46,
+	SPECIES_S47,
+	SPECIES_S48,
+};
+
+const u16 gRarePage50[] =
+{
+	SPECIES_S49,
+	SPECIES_S50,
+	SPECIES_S51,
+	SPECIES_S52,
+};
+
+const u16 gRarePage51[] =
+{
+	SPECIES_S53,
+	SPECIES_S54,
+	SPECIES_S55,
+	SPECIES_S56,
+};
+
+const u16 gRarePage52[] =
+{
+	SPECIES_S57,
+	SPECIES_S58,
+	SPECIES_S59,
+	SPECIES_S60,
+};
+
+const u16 gRarePage53[] =
+{
+	SPECIES_S61,
+	SPECIES_S62,
+	SPECIES_S63,
+	SPECIES_S64,
+};
+
+const u16 gRarePage54[] =
+{
+	SPECIES_S65,
+	SPECIES_S66,
+	SPECIES_S67,
+	SPECIES_S68,
+};
+
+const u16 gRarePage55[] =
+{
+	SPECIES_S69,
+	SPECIES_S70,
+	SPECIES_S71,
+	SPECIES_S72,
+};
+
+const u16 gRarePage56[] =
+{
+	SPECIES_S73,
+	SPECIES_S74,
+	SPECIES_S75,
+	SPECIES_S76,
+};
+
+const u16 gRarePage57[] =
+{
+	SPECIES_S77,
+	SPECIES_S78,
+	SPECIES_S79,
+	SPECIES_S80,
+};
+
+const u16 gRarePage58[] =
+{
+	SPECIES_S81,
+	SPECIES_S82,
+	SPECIES_S83,
+	SPECIES_S84,
+};
+
+const u16 gRarePage59[] =
+{
+	SPECIES_S85,
+	SPECIES_S86,
+	SPECIES_S87,
+	SPECIES_S88,
+};
+
+const u16 gRarePage60[] =
+{
+	SPECIES_S89,
+	SPECIES_S90,
+	SPECIES_S91,
+	SPECIES_S92,
+};
+
+const u16 gRarePage61[] =
+{
+	SPECIES_S93,
+	SPECIES_CUBBURN,
+	SPECIES_FLAMBEAR,
+	SPECIES_BRUINUS,
+};
+
+const u16 gRarePage62[] =
+{
+	SPECIES_PALSSIO,
+	SPECIES_PRESSIO,
+	SPECIES_DONMARIN,
+	SPECIES_VULPII,
+};
+
+const u16 gRarePage63[] =
+{
+	SPECIES_BURGELA,
+	SPECIES_JUNGELA,
+	SPECIES_HANEEI,
+	SPECIES_KAZAPPELIN,
+};
+
+const u16 gRarePage64[] =
+{
+	SPECIES_ORFRY,
+	SPECIES_MOLAMBINO,
+	SPECIES_ANGORE,
+	SPECIES_LUREEL,
+};
+
+const u16 gRarePage65[] =
+{
+	SPECIES_PARASPOR,
+	SPECIES_MIMMEO,
+	SPECIES_DODAERIE,
+	SPECIES_COINPUR,
+};
+
+const u16 gRarePage66[] =
+{
+	SPECIES_MOIBELLE,
+	SPECIES_BELLEDAM,
+	SPECIES_KOLTA,
+	SPECIES_DISTURBAN,
+};
+
+const u16 gRarePage67[] =
+{
+	SPECIES_SMUJJ,
+	SPECIES_PUPPERON,
+	SPECIES_BELLIGNAN,
+	SPECIES_GRENMAR,
+};
+
+const u16 gRarePage68[] =
+{
+	SPECIES_TYKER,
+	SPECIES_STRAIGAR,
+	SPECIES_LUXWAN,
+	SPECIES_STROMEN,
+};
+
+const u16 gRarePage69[] =
+{
+	SPECIES_PHANDARIN,
+	SPECIES_TRICULES,
+	SPECIES_WARFURS,
+	SPECIES_WEARLYCAN,
+};
+
+const u16 gRarePage70[] =
+{
+	SPECIES_GOROCHU,
+	SPECIES_MISSINGNO_YELLOW,
+	SPECIES_MISSINGNO_GHOST,
+	SPECIES_MISSINGNO_FOSSIL,
+};
+
+const u16 gRarePage71[] =
+{
+	SPECIES_S133,
+	SPECIES_S134,
+	SPECIES_S135,
+	SPECIES_S136,
+};
+
+const u16 gRarePage72[] =
+{
+	SPECIES_S137,
+	SPECIES_S138,
+	SPECIES_S139,
+	SPECIES_S140,
+};
+
+const u16 gRarePage73[] =
+{
+	SPECIES_S141,
+	SPECIES_S142,
+	SPECIES_S143,
+	SPECIES_S144,
+};
+
+const u16 gRarePage74[] =
+{
+	SPECIES_S145,
+	SPECIES_S146,
+	SPECIES_S147,
+	SPECIES_S148,
+};
+
+const u16 gRarePage75[] =
+{
+	SPECIES_S149,
+	SPECIES_S150,
+	SPECIES_S151,
+	SPECIES_S152,
+};
+
+const u16 gRarePage76[] =
+{
+	SPECIES_S153,
+	SPECIES_S154,
+	SPECIES_S155,
+	SPECIES_S156,
+};
+
+const u16 gRarePage77[] =
+{
+	SPECIES_S157,
+	SPECIES_S158,
+	SPECIES_S159,
+	SPECIES_S160,
+};
+
+const u16 gRarePage78[] =
+{
+	SPECIES_S161,
+	SPECIES_S162,
+	SPECIES_S163,
+	SPECIES_S164,
+};
+
+const u16 gRarePage79[] =
+{
+	SPECIES_S165,
+	SPECIES_S166,
+	SPECIES_S167,
+	SPECIES_S167,
+};
+
+const u16 gRarePage80[] =
+{
+	SPECIES_S168,
+	SPECIES_S169,
+	SPECIES_S170,
+	SPECIES_S171,
+};
+
+const u16 gRarePage81[] =
+{
+	SPECIES_S172,
+	SPECIES_S173,
+	SPECIES_S174,
+	SPECIES_S175,
+};
+
+const u16 gRarePage82[] =
+{
+	SPECIES_S176,
+	SPECIES_S177,
+	SPECIES_S178,
+	SPECIES_S179,
+};
+
+const u16 gRarePage83[] =
+{
+	SPECIES_S180,
+	SPECIES_S181,
+	SPECIES_S182,
+	SPECIES_S183,
+};
+
+const u16 gRarePage84[] =
+{
+	SPECIES_S184,
+	SPECIES_S185,
+	SPECIES_S186,
+	SPECIES_S187,
+};
+
+const u16 gRarePage85[] =
+{
+	SPECIES_S188,
+	SPECIES_S189,
+	SPECIES_S190,
+	SPECIES_S191,
+};
+
+const u16 gRarePage86[] =
+{
+	SPECIES_S192,
+	SPECIES_S193,
+	SPECIES_S194,
+	SPECIES_S195,
+};
+
+const u16 gRarePage87[] =
+{
+	SPECIES_S196,
+	SPECIES_S197,
+	SPECIES_S198,
+	SPECIES_S199,
+};
+
+const u16 gRarePage88[] =
+{
+	SPECIES_S200,
+	SPECIES_S201,
+	SPECIES_S202,
+	SPECIES_S203,
+};
+
+const u16 gRarePage89[] =
+{
+	SPECIES_S204,
+	SPECIES_S205,
+	SPECIES_S206,
+	SPECIES_S207,
+};
+
+const u16 gRarePage90[] =
+{
+	SPECIES_S208,
+	SPECIES_S209,
+	SPECIES_S210,
+	SPECIES_S211,
+};
+
+const u16 gRarePage91[] =
+{
+	SPECIES_S212,
+	SPECIES_S213,
+	SPECIES_S214,
+	SPECIES_S215,
+};
+
+const u16 gRarePage92[] =
+{
+	SPECIES_S216,
+	SPECIES_S217,
+	SPECIES_S218,
+	SPECIES_S219,
+};
+
+const u16 gRarePage93[] =
+{
+	SPECIES_S220,
+	SPECIES_S221,
+	SPECIES_S222,
+	SPECIES_S223,
+};
+
+const u16 gRarePage94[] =
+{
+	SPECIES_S224,
+	SPECIES_S225,
+	SPECIES_S226,
+	SPECIES_S227,
+};
+
+const u16 gRarePage95[] =
+{
+	SPECIES_S228,
+	SPECIES_S229,
+	SPECIES_S230,
+	SPECIES_S231,
+};
+
+const u16 gRarePage96[] =
+{
+	SPECIES_S232,
+	SPECIES_S233,
+	SPECIES_S234,
+	SPECIES_S235,
+};
+
+const u16 gRarePage97[] =
+{
+	SPECIES_S236,
+	SPECIES_S237,
+	SPECIES_S238,
+	SPECIES_S239,
+};
+
+const u16 gRarePage98[] =
+{
+	SPECIES_S240,
+	SPECIES_S241,
+	SPECIES_S242,
+	SPECIES_S243,
+};
+
+const u16 gRarePage99[] =
+{
+	SPECIES_S243,
+	SPECIES_S244,
+	SPECIES_S245,
+	SPECIES_S246,
+};
+
+const u16 gRarePage100[] =
+{
+	SPECIES_S247,
+	SPECIES_S248,
+	SPECIES_S249,
+	SPECIES_S250,
+};
+
+const u16 gRarePage101[] =
+{
+	SPECIES_S251,
+	SPECIES_S252,
+	SPECIES_S253,
+	SPECIES_S254,
+};
+
+const u16 gRarePage102[] =
+{
+	SPECIES_S255,
+	SPECIES_S256,
+	SPECIES_S257,
+	SPECIES_S258,
+};
+
+const u16 gRarePage103[] =
+{
+	SPECIES_S259,
+	SPECIES_S260,
+	SPECIES_S261,
+	SPECIES_S262,
+};
+
+const u16 gRarePage104[] =
+{
+	SPECIES_S263,
+	SPECIES_S264,
+	SPECIES_S265,
+	SPECIES_S266,
+};
+
+const u16 gRarePage105[] =
+{
+	SPECIES_S267,
+	SPECIES_S268,
+	SPECIES_S269,
+	SPECIES_S270,
+};
+
+const u16 gRarePage106[] =
+{
+	SPECIES_S271,
+	SPECIES_S272,
+	SPECIES_S273,
+	SPECIES_S274,
+};
+
+const u16 gRarePage107[] =
+{
+	SPECIES_S275,
+	SPECIES_S276,
+	SPECIES_S277,
+	SPECIES_S278,
+};
+
+const u16 gRarePage108[] =
+{
+	SPECIES_S279,
+	SPECIES_S280,
+	SPECIES_S281,
+	SPECIES_S282,
+};
+
+const u16 gRarePage109[] =
+{
+	SPECIES_S283,
+	SPECIES_S284,
+	SPECIES_S285,
+	SPECIES_S286,
+};
+
+const u16 gRarePage110[] =
+{
+	SPECIES_S287,
+	SPECIES_S288,
+	SPECIES_S289,
+	SPECIES_S290,
+};
+
+const u16 gRarePage111[] =
+{
+	SPECIES_S290,
+	SPECIES_S291,
+	SPECIES_S292,
+	SPECIES_S293,
+};
+
+const u16 gRarePage112[] =
+{
+	SPECIES_S294,
+	SPECIES_S295,
+	SPECIES_S296,
+	SPECIES_S297,
+};
+
+const u16 gRarePage113[] =
+{
+	SPECIES_S298,
+	SPECIES_S299,
+	SPECIES_S300,
+	SPECIES_S301,
+};
+
+const u16 gRarePage114[] =
+{
+	SPECIES_S302,
+	SPECIES_S303,
+	SPECIES_S304,
+	SPECIES_S305,
+};
+
+const u16 gRarePage115[] =
+{
+	SPECIES_S306,
+	SPECIES_S307,
+	SPECIES_S308,
+	SPECIES_S309,
+};
+
+const u16 gRarePage116[] =
+{
+	SPECIES_S310,
+	SPECIES_S311,
+	SPECIES_S312,
+	SPECIES_S313,
+};
+
+const u16 gRarePage117[] =
+{
+	SPECIES_S314,
+	SPECIES_S315,
+	SPECIES_S316,
+	SPECIES_S317,
+};
+
+const u16 gRarePage118[] =
+{
+	SPECIES_S318,
+	SPECIES_S319,
+	SPECIES_S320,
+	SPECIES_S321,
+};
+
+const u16 gRarePage119[] =
+{
+	SPECIES_S322,
+	SPECIES_S323,
+	SPECIES_S324,
+	SPECIES_S325,
+};
+
+const u16 gRarePage120[] =
+{
+	SPECIES_S326,
+	SPECIES_S327,
+	SPECIES_S328,
+	SPECIES_S329,
+};
+
+const u16 gRarePage121[] =
+{
+	SPECIES_S330,
+	SPECIES_S331,
+	SPECIES_S332,
+	SPECIES_S333,
+};
+
+const u16 gRarePage122[] =
+{
+	SPECIES_S334,
+	SPECIES_S335,
+	SPECIES_S336,
+	SPECIES_S337,
+};
+
+const u16 gRarePage123[] =
+{
+	SPECIES_S338,
+	SPECIES_S339,
+	SPECIES_S340,
+	SPECIES_S341,
+};
+
+const u16 gRarePage124[] =
+{
+	SPECIES_S342,
+	SPECIES_S343,
+	SPECIES_S344,
+	SPECIES_S345,
+};
+
+const u16 gRarePage125[] =
+{
+	SPECIES_S346,
+	SPECIES_S347,
+	SPECIES_S348,
+	SPECIES_S349,
+};
+
+const u16 gRarePage126[] =
+{
+	SPECIES_S350,
+	SPECIES_S351,
+	SPECIES_S352,
+	SPECIES_S353,
+};
+
+const u16 gRarePage127[] =
+{
+	SPECIES_S354,
+	SPECIES_S355,
+	SPECIES_S356,
+	SPECIES_S357,
+};
+
+const u16 gRarePage128[] =
+{
+	SPECIES_S358,
+	SPECIES_S359,
+	SPECIES_S360,
+	SPECIES_S361,
+};
+
+const u16 gRarePage129[] =
+{
+	SPECIES_S362,
+	SPECIES_S363,
+	SPECIES_S364,
+	SPECIES_S365,
+};
+
+const u16 gRarePage130[] =
+{
+	SPECIES_S366,
+	SPECIES_S367,
+	SPECIES_S368,
+	SPECIES_S369,
+};
+
+const u16 gRarePage131[] =
+{
+	SPECIES_S370,
+	SPECIES_S371,
+	SPECIES_S372,
+	SPECIES_S373,
+};
+
+const u16 gRarePage132[] =
+{
+	SPECIES_S377,
+	SPECIES_S378,
+	SPECIES_S379,
+	SPECIES_S380,
+};
+
+const u16 gRarePage133[] =
+{
+	SPECIES_S381,
+	SPECIES_S382,
+	SPECIES_S383,
+	SPECIES_S384,
+};
+
+const u16 gRarePage134[] =
+{
+	SPECIES_S385,
+	SPECIES_S386,
+	SPECIES_S387,
+	SPECIES_S388,
+};
+
+const u16 gRarePage135[] =
+{
+	SPECIES_S389,
+	SPECIES_S390,
+	SPECIES_S391,
+	SPECIES_S392,
+};
+
+const u16 gRarePage136[] =
+{
+	SPECIES_S393,
+	SPECIES_S394,
+	SPECIES_S395,
+	SPECIES_S396,
+};
+
+const u16 gRarePage137[] =
+{
+	SPECIES_S397,
+	SPECIES_S398,
+	SPECIES_S399,
+	SPECIES_S400,
+};
+
+const u16 gRarePage138[] =
+{
+	SPECIES_S401,
+	SPECIES_S402,
+	SPECIES_S403,
+	SPECIES_S404,
+};
+
+const u16 gRarePage139[] =
+{
+	SPECIES_S405,
+	SPECIES_S406,
+	SPECIES_S407,
+	SPECIES_S408,
+};
+
+const u16 gRarePage140[] =
+{
+	SPECIES_S409,
+	SPECIES_S410,
+	SPECIES_S411,
+	SPECIES_S412,
+};
+
+const u16 gRarePage141[] =
+{
+	SPECIES_S413,
+	SPECIES_S414,
+	SPECIES_S415,
+	SPECIES_S416,
+};
+
+const u16 gRarePage142[] =
+{
+	SPECIES_S417,
+	SPECIES_S418,
+	SPECIES_S419,
+	SPECIES_S420,
+};
+
+const u16 gRarePage143[] =
+{
+	SPECIES_S421,
+	SPECIES_S422,
+	SPECIES_S423,
+	SPECIES_S424,
+};
+
+const u16 gRarePage144[] =
+{
+	SPECIES_S425,
+	SPECIES_S426,
+	SPECIES_S427,
+	SPECIES_S428,
+};
+
+const u16 gRarePage145[] =
+{
+	SPECIES_S429,
+	SPECIES_S430,
+	SPECIES_S431,
+	SPECIES_S432,
+};
+
+const u16 gRarePage146[] =
+{
+	SPECIES_S433,
+	SPECIES_S434,
+	SPECIES_S435,
+	SPECIES_S436,
+};
+
+const u16 gRarePage147[] =
+{
+	SPECIES_S437,
+	SPECIES_S438,
+	SPECIES_S439,
+	SPECIES_S440,
+};
+
+const u16 gRarePage148[] =
+{
+	SPECIES_S441,
+	SPECIES_S442,
+	SPECIES_S443,
+	SPECIES_S444,
+};
+
+const u16 gRarePage149[] =
+{
+	SPECIES_S445,
+	SPECIES_S446,
+	SPECIES_S447,
+	SPECIES_S448,
+};
+
+const u16 gRarePage150[] =
+{
+	SPECIES_S449,
+	SPECIES_S450,
+	SPECIES_S451,
+	SPECIES_S452,
+};
+
+const u16 gRarePage151[] =
+{
+	SPECIES_S453,
+	SPECIES_S454,
+	SPECIES_S455,
+	SPECIES_S456,
+};
+
+const u16 gRarePage152[] =
+{
+	SPECIES_S457,
+	SPECIES_S458,
+	SPECIES_S459,
+	SPECIES_S460,
+};
+
+const u16 gRarePage153[] =
+{
+	SPECIES_S461,
+	SPECIES_S462,
+	SPECIES_S463,
+	SPECIES_S464,
+};
+
+const u16 gRarePage154[] =
+{
+	SPECIES_S465,
+	SPECIES_S466,
+	SPECIES_S467,
+	SPECIES_S467,
+};
+
+const u16 gRarePage155[] =
+{
+	SPECIES_S468,
+	SPECIES_S469,
+	SPECIES_S470,
+	SPECIES_S471,
+};
+
+const u16 gRarePage156[] =
+{
+	SPECIES_S472,
+	SPECIES_S473,
+	SPECIES_S474,
+	SPECIES_S475,
+};
+
+const u16 gRarePage157[] =
+{
+	SPECIES_S476,
+	SPECIES_S477,
+	SPECIES_S478,
+	SPECIES_S479,
+};
+
+const u16 gRarePage158[] =
+{
+	SPECIES_S480,
+	SPECIES_S481,
+	SPECIES_S482,
+	SPECIES_S483,
+};
+
+const u16 gRarePage159[] =
+{
+	SPECIES_S484,
+	SPECIES_S485,
+	SPECIES_S486,
+	SPECIES_S487,
+};
+
+const u16 gRarePage160[] =
+{
+	SPECIES_S488,
+	SPECIES_S489,
+	SPECIES_S490,
+	SPECIES_S491,
+};
+
+const u16 gRarePage161[] =
+{
+	SPECIES_S492,
+	SPECIES_S493,
+	SPECIES_S494,
+	SPECIES_S495,
+};
+
+const u16 gRarePage162[] =
+{
+	SPECIES_S496,
+	SPECIES_S497,
+	SPECIES_S498,
+	SPECIES_S499,
+};
+
+const u16 gRarePage163[] =
+{
+	SPECIES_S500,
+	SPECIES_S501,
+	SPECIES_S502,
+	SPECIES_S503,
+};
+
+const u16 gRarePage164[] =
+{
+	SPECIES_S504,
+	SPECIES_S505,
+	SPECIES_S506,
+	SPECIES_S507,
+};
+
+const u16 gRarePage165[] =
+{
+	SPECIES_S508,
+	SPECIES_S509,
+	SPECIES_S510,
+	SPECIES_S511,
+};
+
+const u16 gRarePage166[] =
+{
+	SPECIES_S512,
+	SPECIES_S513,
+	SPECIES_S514,
+	SPECIES_S515,
+};
+
+const u16 gRarePage167[] =
+{
+	SPECIES_S516,
+	SPECIES_S517,
+	SPECIES_S518,
+	SPECIES_S519,
+};
+
+const u16 gRarePage168[] =
+{
+	SPECIES_S520,
+	SPECIES_S521,
+	SPECIES_S522,
+	SPECIES_S523,
+};
+
+const u16 gRarePage169[] =
+{
+	SPECIES_S524,
+	SPECIES_S525,
+	SPECIES_S526,
+	SPECIES_S527,
+};
+
+const u16 gRarePage170[] =
+{
+	SPECIES_S528,
+	SPECIES_S529,
+	SPECIES_S530,
+	SPECIES_S531,
+};
+
+const u16 gRarePage171[] =
+{
+	SPECIES_S532,
+	SPECIES_S533,
+	SPECIES_S534,
+	SPECIES_S535,
+};
+
+const u16 gRarePage172[] =
+{
+	SPECIES_S536,
+	SPECIES_S537,
+	SPECIES_S538,
+	SPECIES_S539,
+};
+
+const u16 gRarePage173[] =
+{
+	SPECIES_S540,
+	SPECIES_S541,
+	SPECIES_S542,
+	SPECIES_S543,
+};
+
+const u16 gRarePage174[] =
+{
+	SPECIES_S543,
+	SPECIES_S544,
+	SPECIES_S545,
+	SPECIES_S546,
+};
+
+const u16 gRarePage175[] =
+{
+	SPECIES_S547,
+	SPECIES_S548,
+	SPECIES_S549,
+	SPECIES_S550,
+};
+
+const u16 gRarePage176[] =
+{
+	SPECIES_S551,
+	SPECIES_S552,
+	SPECIES_S553,
+	SPECIES_S554,
+};
+
+const u16 gRarePage177[] =
+{
+	SPECIES_S555,
+	SPECIES_S556,
+	SPECIES_S557,
+	SPECIES_S558,
+};
+
+const u16 gRarePage178[] =
+{
+	SPECIES_S559,
+	SPECIES_S560,
+	SPECIES_S561,
+	SPECIES_S562,
+};
+
+const u16 gRarePage179[] =
+{
+	SPECIES_S563,
+	SPECIES_S564,
+	SPECIES_S565,
+	SPECIES_S566,
+};
+
+const u16 gRarePage180[] =
+{
+	SPECIES_S567,
+	SPECIES_S568,
+	SPECIES_S569,
+	SPECIES_S570,
+};
+
+const u16 gRarePage181[] =
+{
+	SPECIES_S571,
+	SPECIES_S572,
+	SPECIES_S573,
+	SPECIES_S574,
+};
+
+const u16 gRarePage182[] =
+{
+	SPECIES_S575,
+	SPECIES_S576,
+	SPECIES_S577,
+	SPECIES_S578,
+};
+
+const u16 gRarePage183[] =
+{
+	SPECIES_S579,
+	SPECIES_S580,
+	SPECIES_S581,
+	SPECIES_S582,
+};
+
+const u16 gRarePage184[] =
+{
+	SPECIES_S583,
+	SPECIES_S584,
+	SPECIES_S585,
+	SPECIES_S586,
+};
+
+const u16 gRarePage185[] =
+{
+	SPECIES_S587,
+	SPECIES_S588,
+	SPECIES_S589,
+	SPECIES_S590,
+};
+
+const u16 gRarePage186[] =
+{
+	SPECIES_S590,
+	SPECIES_S591,
+	SPECIES_S592,
+	SPECIES_S593,
+};
+
+const u16 gRarePage187[] =
+{
+	SPECIES_S594,
+	SPECIES_S595,
+	SPECIES_S596,
+	SPECIES_S597,
+};
+
+const u16 gRarePage188[] =
+{
+	SPECIES_S598,
+	SPECIES_S599,
+	SPECIES_S600,
+	SPECIES_S601,
+};
+
+const u16 gRarePage189[] =
+{
+	SPECIES_S602,
+	SPECIES_S603,
+	SPECIES_S604,
+	SPECIES_S605,
+};
+
+const u16 gRarePage190[] =
+{
+	SPECIES_S606,
+	SPECIES_S607,
+	SPECIES_S608,
+	SPECIES_S609,
+};
+
+const u16 gRarePage191[] =
+{
+	SPECIES_S610,
+	SPECIES_S611,
+	SPECIES_S612,
+	SPECIES_S613,
+};
+
+const u16 gRarePage192[] =
+{
+	SPECIES_S614,
+	SPECIES_S615,
+	SPECIES_S616,
+	SPECIES_S617,
+};
+
+const u16 gRarePage193[] =
+{
+	SPECIES_S618,
+	SPECIES_S619,
+	SPECIES_S620,
+	SPECIES_S621,
+};
+
+const u16 gRarePage194[] =
+{
+	SPECIES_S622,
+	SPECIES_S623,
+	SPECIES_S624,
+	SPECIES_S625,
+};
+
+const u16 gRarePage195[] =
+{
+	SPECIES_S626,
+	SPECIES_S627,
+	SPECIES_S628,
+	SPECIES_S629,
+};
+
+const u16 gRarePage196[] =
+{
+	SPECIES_S630,
+	SPECIES_S631,
+	SPECIES_S632,
+	SPECIES_S633,
+};
+
+const u16 gRarePage197[] =
+{
+	SPECIES_S634,
+	SPECIES_S635,
+	SPECIES_S636,
+	SPECIES_S637,
+};
+
+const u16 gRarePage198[] =
+{
+	SPECIES_S638,
+	SPECIES_S639,
+	SPECIES_S640,
+	SPECIES_S641,
+};
+
+const u16 gRarePage199[] =
+{
+	SPECIES_S642,
+	SPECIES_S643,
+	SPECIES_S644,
+	SPECIES_S645,
+};
+
+const u16 gRarePage200[] =
+{
+	SPECIES_S646,
+	SPECIES_S647,
+	SPECIES_S648,
+	SPECIES_S649,
+};
+
+const u16 gRarePage201[] =
+{
+	SPECIES_S650,
+	SPECIES_S651,
+	SPECIES_S652,
+	SPECIES_S653,
+};
+
+const u16 gRarePage202[] =
+{
+	SPECIES_S654,
+	SPECIES_S655,
+	SPECIES_S656,
+	SPECIES_S657,
+};
+
+const u16 gRarePage203[] =
+{
+	SPECIES_S658,
+	SPECIES_S659,
+	SPECIES_S660,
+	SPECIES_S661,
+};
+
+const u16 gRarePage204[] =
+{
+	SPECIES_S662,
+	SPECIES_S663,
+	SPECIES_S664,
+	SPECIES_S665,
+};
+
+const u16 gRarePage205[] =
+{
+	SPECIES_S666,
+	SPECIES_S667,
+	SPECIES_S668,
+	SPECIES_S669,
+};
+
+const u16 gRarePage206[] =
+{
+	SPECIES_S670,
+	SPECIES_S671,
+	SPECIES_S672,
+	SPECIES_S673,
+};
+
+const u16 gRarePage207[] =
+{
+	SPECIES_S677,
+	SPECIES_S678,
+	SPECIES_S679,
+	SPECIES_S680,
+};
+
+const u16 gRarePage208[] =
+{
+	SPECIES_S681,
+	SPECIES_S682,
+	SPECIES_S683,
+	SPECIES_S684,
+};
+
+const u16 gRarePage209[] =
+{
+	SPECIES_S685,
+	SPECIES_S686,
+	SPECIES_S687,
+	SPECIES_S688,
+};
+
+const u16 gRarePage210[] =
+{
+	SPECIES_S689,
+	SPECIES_S690,
+	SPECIES_S691,
+	SPECIES_S692,
+};
+
+const u16 gRarePage211[] =
+{
+	SPECIES_S693,
+	SPECIES_S694,
+	SPECIES_S695,
+	SPECIES_S696,
+};
+
+const u16 gRarePage212[] =
+{
+	SPECIES_S697,
+	SPECIES_S698,
+	SPECIES_S699,
+	SPECIES_S700,
+};
+
+const u16 gRarePage213[] =
+{
+	SPECIES_S701,
+	SPECIES_S702,
+	SPECIES_S703,
+	SPECIES_S704,
+};
+
+const u16 gRarePage214[] =
+{
+	SPECIES_S705,
+	SPECIES_S706,
+	SPECIES_S707,
+	SPECIES_S708,
+};
+
+const u16 gRarePage215[] =
+{
+	SPECIES_S709,
+	SPECIES_S710,
+	SPECIES_S711,
+	SPECIES_S712,
+};
+
+const u16 gRarePage216[] =
+{
+	SPECIES_S713,
+	SPECIES_S714,
+	SPECIES_S715,
+	SPECIES_S716,
+};
+
+const u16 gRarePage217[] =
+{
+	SPECIES_S717,
+	SPECIES_S718,
+	SPECIES_S719,
+	SPECIES_S720,
+};
+
+const u16 gRarePage218[] =
+{
+	SPECIES_S721,
+	SPECIES_S722,
+	SPECIES_S723,
+	SPECIES_S724,
+};
+
+const u16 gRarePage219[] =
+{
+	SPECIES_S725,
+	SPECIES_S726,
+	SPECIES_S727,
+	SPECIES_S728,
+};
+
+const u16 gRarePage220[] =
+{
+	SPECIES_S729,
+	SPECIES_S730,
+	SPECIES_S731,
+	SPECIES_S732,
+};
+
+const u16 gRarePage221[] =
+{
+	SPECIES_S733,
+	SPECIES_S734,
+	SPECIES_S735,
+	SPECIES_S736,
+};
+
+const u16 gRarePage222[] =
+{
+	SPECIES_S737,
+	SPECIES_S738,
+	SPECIES_S739,
+	SPECIES_S740,
+};
+
+const u16 gRarePage223[] =
+{
+	SPECIES_S741,
+	SPECIES_S742,
+	SPECIES_S743,
+	SPECIES_S744,
+};
+
+const u16 gRarePage224[] =
+{
+	SPECIES_S745,
+	SPECIES_S746,
+	SPECIES_S747,
+	SPECIES_S748,
+};
+
+const u16 gRarePage225[] =
+{
+	SPECIES_S749,
+	SPECIES_S750,
+	SPECIES_S751,
+	SPECIES_S752,
+};
+
+const u16 gRarePage226[] =
+{
+	SPECIES_S753,
+	SPECIES_S754,
+	SPECIES_S755,
+	SPECIES_S756,
+};
+
+const u16 gRarePage227[] =
+{
+	SPECIES_S757,
+	SPECIES_S758,
+	SPECIES_S759,
+	SPECIES_S760,
+};
+
+const u16 gRarePage228[] =
+{
+	SPECIES_S761,
+	SPECIES_S762,
+	SPECIES_S763,
+	SPECIES_S764,
+};
+
+const u16 gRarePage229[] =
+{
+	SPECIES_S765,
+	SPECIES_S766,
+	SPECIES_S767,
+	SPECIES_S767,
+};
+
+const u16 gRarePage230[] =
+{
+	SPECIES_S768,
+	SPECIES_S769,
+	SPECIES_S770,
+	SPECIES_S771,
+};
+
+const u16 gRarePage231[] =
+{
+	SPECIES_S772,
+	SPECIES_S773,
+	SPECIES_S774,
+	SPECIES_S775,
+};
+
+const u16 gRarePage232[] =
+{
+	SPECIES_S776,
+	SPECIES_S777,
+	SPECIES_S778,
+	SPECIES_S779,
+};
+
+const u16 gRarePage233[] =
+{
+	SPECIES_S780,
+	SPECIES_S781,
+	SPECIES_S782,
+	SPECIES_S783,
+};
+
+const u16 gRarePage234[] =
+{
+	SPECIES_S784,
+	SPECIES_S785,
+	SPECIES_S786,
+	SPECIES_S787,
+};
+
+const u16 gRarePage235[] =
+{
+	SPECIES_S788,
+	SPECIES_S789,
+	SPECIES_S790,
+	SPECIES_S791,
+};
+
+const u16 gRarePage236[] =
+{
+	SPECIES_S792,
+	SPECIES_S793,
+	SPECIES_S794,
+	SPECIES_S795,
+};
+
+const u16 gRarePage237[] =
+{
+	SPECIES_S796,
+	SPECIES_S797,
+	SPECIES_S798,
+	SPECIES_S799,
+};
+
+const u16 gRarePage238[] =
+{
+	SPECIES_S800,
+	SPECIES_S801,
+	SPECIES_S802,
+	SPECIES_S803,
+};
+
+const u16 gRarePage239[] =
+{
+	SPECIES_S804,
+	SPECIES_S805,
+	SPECIES_S806,
+	SPECIES_S807,
+};
+
+const u16 gRarePage240[] =
+{
+	SPECIES_S808,
+	SPECIES_S809,
+	SPECIES_S810,
+	SPECIES_S811,
+};
+
+const u16 gRarePage241[] =
+{
+	SPECIES_S812,
+	SPECIES_S813,
+	SPECIES_S814,
+	SPECIES_S815,
+};
+
+const u16 gRarePage242[] =
+{
+	SPECIES_S816,
+	SPECIES_S817,
+	SPECIES_S818,
+	SPECIES_S819,
+};
+
+const u16 gRarePage243[] =
+{
+	SPECIES_S820,
+	SPECIES_S821,
+	SPECIES_S822,
+	SPECIES_S823,
+};
+
+const u16 gRarePage244[] =
+{
+	SPECIES_S824,
+	SPECIES_S825,
+	SPECIES_S826,
+	SPECIES_S827,
+};
+
+const u16 gRarePage245[] =
+{
+	SPECIES_S828,
+	SPECIES_S829,
+	SPECIES_S830,
+	SPECIES_S831,
+};
+
+const u16 gRarePage246[] =
+{
+	SPECIES_S832,
+	SPECIES_S833,
+	SPECIES_S834,
+	SPECIES_S835,
+};
+
+const u16 gRarePage247[] =
+{
+	SPECIES_S836,
+	SPECIES_S837,
+	SPECIES_S838,
+	SPECIES_S839,
+};
+
+const u16 gRarePage248[] =
+{
+	SPECIES_S840,
+	SPECIES_S841,
+	SPECIES_S842,
+	SPECIES_S843,
+};
+
+const u16 gRarePage249[] =
+{
+	SPECIES_S843,
+	SPECIES_S844,
+	SPECIES_S845,
+	SPECIES_S846,
+};
+
+const u16 gRarePage250[] =
+{
+	SPECIES_S847,
+	SPECIES_S848,
+	SPECIES_S849,
+	SPECIES_S850,
+};
+
+const u16 gRarePage251[] =
+{
+	SPECIES_S851,
+	SPECIES_S852,
+	SPECIES_S853,
+	SPECIES_S854,
+};
+
+const u16 gRarePage252[] =
+{
+	SPECIES_S855,
+	SPECIES_S856,
+	SPECIES_S857,
+	SPECIES_S858,
+};
+
+const u16 gRarePage253[] =
+{
+	SPECIES_S859,
+	SPECIES_S860,
+	SPECIES_S861,
+	SPECIES_S862,
+};
+
+const u16 gRarePage254[] =
+{
+	SPECIES_S863,
+	SPECIES_S864,
+	SPECIES_S865,
+	SPECIES_S866,
+};
+
+const u16 gRarePage255[] =
+{
+	SPECIES_S867,
+	SPECIES_S868,
+	SPECIES_S869,
+	SPECIES_S870,
+};
+
+const u16 gRarePage256[] =
+{
+	SPECIES_S871,
+	SPECIES_S872,
+	SPECIES_S873,
+	SPECIES_S874,
+};
+
+const u16 gRarePage257[] =
+{
+	SPECIES_S875,
+	SPECIES_S876,
+	SPECIES_S877,
+	SPECIES_S878,
+};
+
+const u16 gRarePage258[] =
+{
+	SPECIES_S879,
+	SPECIES_S880,
+	SPECIES_S881,
+	SPECIES_S882,
+};
+
+const u16 gRarePage259[] =
+{
+	SPECIES_S883,
+	SPECIES_S884,
+	SPECIES_S885,
+	SPECIES_S886,
+};
+
+const u16 gRarePage260[] =
+{
+	SPECIES_S887,
+	SPECIES_S888,
+	SPECIES_S889,
+	SPECIES_S890,
+};
+
+const u16 gRarePage261[] =
+{
+	SPECIES_S890,
+	SPECIES_S891,
+	SPECIES_S892,
+	SPECIES_S893,
+};
+
+const u16 gRarePage262[] =
+{
+	SPECIES_S894,
+	SPECIES_S895,
+	SPECIES_S896,
+	SPECIES_S897,
+};
+
+const u16 gRarePage263[] =
+{
+	SPECIES_S898,
+	SPECIES_S899,
+	SPECIES_S900,
+	SPECIES_S901,
+};
+
+const u16 gRarePage264[] =
+{
+	SPECIES_S902,
+	SPECIES_S903,
+	SPECIES_S904,
+	SPECIES_S905,
+};
+
+const u16 gRarePage265[] =
+{
+	SPECIES_S906,
+	SPECIES_S907,
+	SPECIES_S908,
+	SPECIES_S909,
+};
+
+const u16 gRarePage266[] =
+{
+	SPECIES_S910,
+	SPECIES_S911,
+	SPECIES_S912,
+	SPECIES_S913,
+};
+
+const u16 gRarePage267[] =
+{
+	SPECIES_S914,
+	SPECIES_S915,
+	SPECIES_S916,
+	SPECIES_S917,
+};
+
+const u16 gRarePage268[] =
+{
+	SPECIES_S918,
+	SPECIES_S919,
+	SPECIES_S920,
+	SPECIES_S921,
+};
+
+const u16 gRarePage269[] =
+{
+	SPECIES_S922,
+	SPECIES_S923,
+	SPECIES_S924,
+	SPECIES_S925,
+};
+
+const u16 gRarePage270[] =
+{
+	SPECIES_S926,
+	SPECIES_S927,
+	SPECIES_S928,
+	SPECIES_S929,
+};
+
+const u16 gRarePage271[] =
+{
+	SPECIES_S930,
+	SPECIES_S931,
+	SPECIES_S932,
+	SPECIES_S933,
+};
+
+const u16 gRarePage272[] =
+{
+	SPECIES_S934,
+	SPECIES_S935,
+	SPECIES_S936,
+	SPECIES_S937,
+};
+
+const u16 gRarePage273[] =
+{
+	SPECIES_S938,
+	SPECIES_S939,
+	SPECIES_S940,
+	SPECIES_S941,
+};
+
+const u16 gRarePage274[] =
+{
+	SPECIES_S942,
+	SPECIES_S943,
+	SPECIES_S944,
+	SPECIES_S945,
+};
+
+const u16 gRarePage275[] =
+{
+	SPECIES_S946,
+	SPECIES_S947,
+	SPECIES_S948,
+	SPECIES_S949,
+};
+
+const u16 gRarePage276[] =
+{
+	SPECIES_S950,
+	SPECIES_S951,
+	SPECIES_S952,
+	SPECIES_S953,
+};
+
+const u16 gRarePage277[] =
+{
+	SPECIES_S954,
+	SPECIES_S955,
+	SPECIES_S956,
+	SPECIES_S957,
+};
+
+const u16 gRarePage278[] =
+{
+	SPECIES_S958,
+	SPECIES_S959,
+	SPECIES_S960,
+	SPECIES_S961,
+};
+
+const u16 gRarePage279[] =
+{
+	SPECIES_S962,
+	SPECIES_S963,
+	SPECIES_S964,
+	SPECIES_S965,
+};
+
+const u16 gRarePage280[] =
+{
+	SPECIES_S966,
+	SPECIES_S967,
+	SPECIES_S968,
+	SPECIES_S969,
+};
+
+const u16 gRarePage281[] =
+{
+	SPECIES_S970,
+	SPECIES_S971,
+	SPECIES_S972,
+	SPECIES_S973,
+};
+
+const u16 gRarePage282[] =
+{
+	SPECIES_S977,
+	SPECIES_S978,
+	SPECIES_S979,
+	SPECIES_S980,
+};
+
+const u16 gRarePage283[] =
+{
+	SPECIES_S981,
+	SPECIES_S982,
+	SPECIES_S983,
+	SPECIES_S984,
+};
+
+const u16 gRarePage284[] =
+{
+	SPECIES_S985,
+	SPECIES_S986,
+	SPECIES_S987,
+	SPECIES_S988,
+};
+
+const u16 gRarePage285[] =
+{
+	SPECIES_S989,
+	SPECIES_S990,
+	SPECIES_S991,
+	SPECIES_S992,
+};
+
+const u16 gRarePage286[] =
+{
+	SPECIES_S993,
+	SPECIES_S994,
+	SPECIES_S995,
+	SPECIES_S996,
+};
+
+const u16 gRarePage287[] =
+{
+	SPECIES_S997,
+	SPECIES_S998,
+	SPECIES_S999,
+	SPECIES_S1000,
+};
+
 const struct HabitatPage gGrasslandPages[] =
 {
 	{gGrasslandPage1, ARRAY_COUNT(gGrasslandPage1)}, 
@@ -2658,6 +4711,8 @@ const struct HabitatPage gGrasslandPages[] =
 	{gGrasslandPage55, ARRAY_COUNT(gGrasslandPage55)}, 
 	{gGrasslandPage56, ARRAY_COUNT(gGrasslandPage56)}, 
 	{gGrasslandPage57, ARRAY_COUNT(gGrasslandPage57)}, 
+	{gGrasslandPage58, ARRAY_COUNT(gGrasslandPage58)},
+	{gGrasslandPage59, ARRAY_COUNT(gGrasslandPage59)},
 };
 
 const struct HabitatPage gForestPages[] =
@@ -2732,6 +4787,8 @@ const struct HabitatPage gForestPages[] =
 	{gForestPage63, ARRAY_COUNT(gForestPage63)},
 	{gForestPage64, ARRAY_COUNT(gForestPage64)},
 	{gForestPage65, ARRAY_COUNT(gForestPage65)},
+	{gForestPage66, ARRAY_COUNT(gForestPage66)},
+	{gForestPage67, ARRAY_COUNT(gForestPage67)},
 };
 
 const struct HabitatPage gWatersEdgePages[] =
@@ -2774,6 +4831,7 @@ const struct HabitatPage gWatersEdgePages[] =
 	{gWatersEdgePage36, ARRAY_COUNT(gWatersEdgePage36)},
 	{gWatersEdgePage37, ARRAY_COUNT(gWatersEdgePage37)}, 
 	{gWatersEdgePage38, ARRAY_COUNT(gWatersEdgePage38)}, 
+	{gWatersEdgePage39, ARRAY_COUNT(gWatersEdgePage39)}, 
 };
 
 const struct HabitatPage gSeaPages[] =
@@ -2800,6 +4858,7 @@ const struct HabitatPage gSeaPages[] =
 	{gSeaPage20, ARRAY_COUNT(gSeaPage20)}, 
 	{gSeaPage21, ARRAY_COUNT(gSeaPage21)}, 
 	{gSeaPage22, ARRAY_COUNT(gSeaPage22)}, 
+	{gSeaPage23, ARRAY_COUNT(gSeaPage23)},
 };
 
 const struct HabitatPage gCavePages[] =
@@ -2839,6 +4898,7 @@ const struct HabitatPage gCavePages[] =
 	{gCavePage33, ARRAY_COUNT(gCavePage33)}, 
 	{gCavePage34, ARRAY_COUNT(gCavePage34)}, 
 	{gCavePage35, ARRAY_COUNT(gCavePage35)}, 
+	{gCavePage36, ARRAY_COUNT(gCavePage35)},
 };
 
 const struct HabitatPage gMountainPages[] =
@@ -3000,6 +5060,256 @@ const struct HabitatPage gRarePages[] =
 	{gRarePage35, ARRAY_COUNT(gRarePage35)},
 	{gRarePage36, ARRAY_COUNT(gRarePage36)},
 	{gRarePage37, ARRAY_COUNT(gRarePage37)},
+	{gRarePage38 , ARRAY_COUNT(gRarePage38)},
+	{gRarePage39 , ARRAY_COUNT(gRarePage39)},
+	{gRarePage40 , ARRAY_COUNT(gRarePage40)},
+	{gRarePage41 , ARRAY_COUNT(gRarePage41)},
+	{gRarePage42 , ARRAY_COUNT(gRarePage42)},
+	{gRarePage43 , ARRAY_COUNT(gRarePage43)},
+	{gRarePage44 , ARRAY_COUNT(gRarePage44)},
+	{gRarePage45 , ARRAY_COUNT(gRarePage45)},
+	{gRarePage46 , ARRAY_COUNT(gRarePage46)},
+	{gRarePage47 , ARRAY_COUNT(gRarePage47)},
+	{gRarePage48 , ARRAY_COUNT(gRarePage48)},
+	{gRarePage49 , ARRAY_COUNT(gRarePage49)},
+	{gRarePage50 , ARRAY_COUNT(gRarePage50)},
+	{gRarePage51 , ARRAY_COUNT(gRarePage51)},
+	{gRarePage52 , ARRAY_COUNT(gRarePage52)},
+	{gRarePage53 , ARRAY_COUNT(gRarePage53)},
+	{gRarePage54 , ARRAY_COUNT(gRarePage54)},
+	{gRarePage55 , ARRAY_COUNT(gRarePage55)},
+	{gRarePage56 , ARRAY_COUNT(gRarePage56)},
+	{gRarePage57 , ARRAY_COUNT(gRarePage57)},
+	{gRarePage58 , ARRAY_COUNT(gRarePage58)},
+	{gRarePage59 , ARRAY_COUNT(gRarePage59)},
+	{gRarePage60 , ARRAY_COUNT(gRarePage60)},
+	{gRarePage61 , ARRAY_COUNT(gRarePage61)},
+	{gRarePage62 , ARRAY_COUNT(gRarePage62)},
+	{gRarePage63 , ARRAY_COUNT(gRarePage63)},
+	{gRarePage64 , ARRAY_COUNT(gRarePage64)},
+	{gRarePage65 , ARRAY_COUNT(gRarePage65)},
+	{gRarePage66 , ARRAY_COUNT(gRarePage66)},
+	{gRarePage67 , ARRAY_COUNT(gRarePage67)},
+	{gRarePage68 , ARRAY_COUNT(gRarePage68)},
+	{gRarePage69 , ARRAY_COUNT(gRarePage69)},
+	{gRarePage70 , ARRAY_COUNT(gRarePage70)},
+	{gRarePage71 , ARRAY_COUNT(gRarePage71)},
+	{gRarePage72 , ARRAY_COUNT(gRarePage72)},
+	{gRarePage73 , ARRAY_COUNT(gRarePage73)},
+	{gRarePage74 , ARRAY_COUNT(gRarePage74)},
+	{gRarePage75 , ARRAY_COUNT(gRarePage75)},
+	{gRarePage76 , ARRAY_COUNT(gRarePage76)},
+	{gRarePage77 , ARRAY_COUNT(gRarePage77)},
+	{gRarePage78 , ARRAY_COUNT(gRarePage78)},
+	{gRarePage79 , ARRAY_COUNT(gRarePage79)},
+	{gRarePage80 , ARRAY_COUNT(gRarePage80)},
+	{gRarePage81 , ARRAY_COUNT(gRarePage81)},
+	{gRarePage82 , ARRAY_COUNT(gRarePage82)},
+	{gRarePage83 , ARRAY_COUNT(gRarePage83)},
+	{gRarePage84 , ARRAY_COUNT(gRarePage84)},
+	{gRarePage85 , ARRAY_COUNT(gRarePage85)},
+	{gRarePage86 , ARRAY_COUNT(gRarePage86)},
+	{gRarePage87 , ARRAY_COUNT(gRarePage87)},
+	{gRarePage88 , ARRAY_COUNT(gRarePage88)},
+	{gRarePage89 , ARRAY_COUNT(gRarePage89)},
+	{gRarePage90 , ARRAY_COUNT(gRarePage90)},
+	{gRarePage91 , ARRAY_COUNT(gRarePage91)},
+	{gRarePage92 , ARRAY_COUNT(gRarePage92)},
+	{gRarePage93 , ARRAY_COUNT(gRarePage93)},
+	{gRarePage94 , ARRAY_COUNT(gRarePage94)},
+	{gRarePage95 , ARRAY_COUNT(gRarePage95)},
+	{gRarePage96 , ARRAY_COUNT(gRarePage96)},
+	{gRarePage97 , ARRAY_COUNT(gRarePage97)},
+	{gRarePage98 , ARRAY_COUNT(gRarePage98)},
+	{gRarePage99 , ARRAY_COUNT(gRarePage99)},
+	{gRarePage100, ARRAY_COUNT(gRarePage100)},
+	{gRarePage101, ARRAY_COUNT(gRarePage101)},
+	{gRarePage102, ARRAY_COUNT(gRarePage102)},
+	{gRarePage103, ARRAY_COUNT(gRarePage103)},
+	{gRarePage104, ARRAY_COUNT(gRarePage104)},
+	{gRarePage105, ARRAY_COUNT(gRarePage105)},
+	{gRarePage106, ARRAY_COUNT(gRarePage106)},
+	{gRarePage107, ARRAY_COUNT(gRarePage107)},
+	{gRarePage108, ARRAY_COUNT(gRarePage108)},
+	{gRarePage109, ARRAY_COUNT(gRarePage109)},
+	{gRarePage110, ARRAY_COUNT(gRarePage110)},
+	{gRarePage111, ARRAY_COUNT(gRarePage111)},
+	{gRarePage112, ARRAY_COUNT(gRarePage112)},
+	{gRarePage113, ARRAY_COUNT(gRarePage113)},
+	{gRarePage114, ARRAY_COUNT(gRarePage114)},
+	{gRarePage115, ARRAY_COUNT(gRarePage115)},
+	{gRarePage116, ARRAY_COUNT(gRarePage116)},
+	{gRarePage117, ARRAY_COUNT(gRarePage117)},
+	{gRarePage118, ARRAY_COUNT(gRarePage118)},
+	{gRarePage119, ARRAY_COUNT(gRarePage119)},
+	{gRarePage120, ARRAY_COUNT(gRarePage120)},
+	{gRarePage121, ARRAY_COUNT(gRarePage121)},
+	{gRarePage122, ARRAY_COUNT(gRarePage122)},
+	{gRarePage123, ARRAY_COUNT(gRarePage123)},
+	{gRarePage124, ARRAY_COUNT(gRarePage124)},
+	{gRarePage125, ARRAY_COUNT(gRarePage125)},
+	{gRarePage126, ARRAY_COUNT(gRarePage126)},
+	{gRarePage127, ARRAY_COUNT(gRarePage127)},
+	{gRarePage128, ARRAY_COUNT(gRarePage128)},
+	{gRarePage129, ARRAY_COUNT(gRarePage129)},
+	{gRarePage130, ARRAY_COUNT(gRarePage130)},
+	{gRarePage131, ARRAY_COUNT(gRarePage131)},
+	{gRarePage132, ARRAY_COUNT(gRarePage132)},
+	{gRarePage133, ARRAY_COUNT(gRarePage133)},
+	{gRarePage134, ARRAY_COUNT(gRarePage134)},
+	{gRarePage135, ARRAY_COUNT(gRarePage135)},
+	{gRarePage136, ARRAY_COUNT(gRarePage136)},
+	{gRarePage137, ARRAY_COUNT(gRarePage137)},
+	{gRarePage138, ARRAY_COUNT(gRarePage138)},
+	{gRarePage139, ARRAY_COUNT(gRarePage139)},
+	{gRarePage140, ARRAY_COUNT(gRarePage140)},
+	{gRarePage141, ARRAY_COUNT(gRarePage141)},
+	{gRarePage142, ARRAY_COUNT(gRarePage142)},
+	{gRarePage143, ARRAY_COUNT(gRarePage143)},
+	{gRarePage144, ARRAY_COUNT(gRarePage144)},
+	{gRarePage145, ARRAY_COUNT(gRarePage145)},
+	{gRarePage146, ARRAY_COUNT(gRarePage146)},
+	{gRarePage147, ARRAY_COUNT(gRarePage147)},
+	{gRarePage148, ARRAY_COUNT(gRarePage148)},
+	{gRarePage149, ARRAY_COUNT(gRarePage149)},
+	{gRarePage150, ARRAY_COUNT(gRarePage150)},
+	{gRarePage151, ARRAY_COUNT(gRarePage151)},
+	{gRarePage152, ARRAY_COUNT(gRarePage152)},
+	{gRarePage153, ARRAY_COUNT(gRarePage153)},
+	{gRarePage154, ARRAY_COUNT(gRarePage154)},
+	{gRarePage155, ARRAY_COUNT(gRarePage155)},
+	{gRarePage156, ARRAY_COUNT(gRarePage156)},
+	{gRarePage157, ARRAY_COUNT(gRarePage157)},
+	{gRarePage158, ARRAY_COUNT(gRarePage158)},
+	{gRarePage159, ARRAY_COUNT(gRarePage159)},
+	{gRarePage160, ARRAY_COUNT(gRarePage160)},
+	{gRarePage161, ARRAY_COUNT(gRarePage161)},
+	{gRarePage162, ARRAY_COUNT(gRarePage162)},
+	{gRarePage163, ARRAY_COUNT(gRarePage163)},
+	{gRarePage164, ARRAY_COUNT(gRarePage164)},
+	{gRarePage165, ARRAY_COUNT(gRarePage165)},
+	{gRarePage166, ARRAY_COUNT(gRarePage166)},
+	{gRarePage167, ARRAY_COUNT(gRarePage167)},
+	{gRarePage168, ARRAY_COUNT(gRarePage168)},
+	{gRarePage169, ARRAY_COUNT(gRarePage169)},
+	{gRarePage170, ARRAY_COUNT(gRarePage170)},
+	{gRarePage171, ARRAY_COUNT(gRarePage171)},
+	{gRarePage172, ARRAY_COUNT(gRarePage172)},
+	{gRarePage173, ARRAY_COUNT(gRarePage173)},
+	{gRarePage174, ARRAY_COUNT(gRarePage174)},
+	{gRarePage175, ARRAY_COUNT(gRarePage175)},
+	{gRarePage176, ARRAY_COUNT(gRarePage176)},
+	{gRarePage177, ARRAY_COUNT(gRarePage177)},
+	{gRarePage178, ARRAY_COUNT(gRarePage178)},
+	{gRarePage179, ARRAY_COUNT(gRarePage179)},
+	{gRarePage180, ARRAY_COUNT(gRarePage180)},
+	{gRarePage181, ARRAY_COUNT(gRarePage181)},
+	{gRarePage182, ARRAY_COUNT(gRarePage182)},
+	{gRarePage183, ARRAY_COUNT(gRarePage183)},
+	{gRarePage184, ARRAY_COUNT(gRarePage184)},
+	{gRarePage185, ARRAY_COUNT(gRarePage185)},
+	{gRarePage186, ARRAY_COUNT(gRarePage186)},
+	{gRarePage187, ARRAY_COUNT(gRarePage187)},
+	{gRarePage188, ARRAY_COUNT(gRarePage188)},
+	{gRarePage189, ARRAY_COUNT(gRarePage189)},
+	{gRarePage190, ARRAY_COUNT(gRarePage190)},
+	{gRarePage191, ARRAY_COUNT(gRarePage191)},
+	{gRarePage192, ARRAY_COUNT(gRarePage192)},
+	{gRarePage193, ARRAY_COUNT(gRarePage193)},
+	{gRarePage194, ARRAY_COUNT(gRarePage194)},
+	{gRarePage195, ARRAY_COUNT(gRarePage195)},
+	{gRarePage196, ARRAY_COUNT(gRarePage196)},
+	{gRarePage197, ARRAY_COUNT(gRarePage197)},
+	{gRarePage198, ARRAY_COUNT(gRarePage198)},
+	{gRarePage199, ARRAY_COUNT(gRarePage199)},
+	{gRarePage200, ARRAY_COUNT(gRarePage200)},
+	{gRarePage201, ARRAY_COUNT(gRarePage201)},
+	{gRarePage202, ARRAY_COUNT(gRarePage202)},
+	{gRarePage203, ARRAY_COUNT(gRarePage203)},
+	{gRarePage204, ARRAY_COUNT(gRarePage204)},
+	{gRarePage205, ARRAY_COUNT(gRarePage205)},
+	{gRarePage206, ARRAY_COUNT(gRarePage206)},
+	{gRarePage207, ARRAY_COUNT(gRarePage207)},
+	{gRarePage208, ARRAY_COUNT(gRarePage208)},
+	{gRarePage209, ARRAY_COUNT(gRarePage209)},
+	{gRarePage210, ARRAY_COUNT(gRarePage210)},
+	{gRarePage211, ARRAY_COUNT(gRarePage211)},
+	{gRarePage212, ARRAY_COUNT(gRarePage212)},
+	{gRarePage213, ARRAY_COUNT(gRarePage213)},
+	{gRarePage214, ARRAY_COUNT(gRarePage214)},
+	{gRarePage215, ARRAY_COUNT(gRarePage215)},
+	{gRarePage216, ARRAY_COUNT(gRarePage216)},
+	{gRarePage217, ARRAY_COUNT(gRarePage217)},
+	{gRarePage218, ARRAY_COUNT(gRarePage218)},
+	{gRarePage219, ARRAY_COUNT(gRarePage219)},
+	{gRarePage220, ARRAY_COUNT(gRarePage220)},
+	{gRarePage221, ARRAY_COUNT(gRarePage221)},
+	{gRarePage222, ARRAY_COUNT(gRarePage222)},
+	{gRarePage223, ARRAY_COUNT(gRarePage223)},
+	{gRarePage224, ARRAY_COUNT(gRarePage224)},
+	{gRarePage225, ARRAY_COUNT(gRarePage225)},
+	{gRarePage226, ARRAY_COUNT(gRarePage226)},
+	{gRarePage227, ARRAY_COUNT(gRarePage227)},
+	{gRarePage228, ARRAY_COUNT(gRarePage228)},
+	{gRarePage229, ARRAY_COUNT(gRarePage229)},
+	{gRarePage230, ARRAY_COUNT(gRarePage230)},
+	{gRarePage231, ARRAY_COUNT(gRarePage231)},
+	{gRarePage232, ARRAY_COUNT(gRarePage232)},
+	{gRarePage233, ARRAY_COUNT(gRarePage233)},
+	{gRarePage234, ARRAY_COUNT(gRarePage234)},
+	{gRarePage235, ARRAY_COUNT(gRarePage235)},
+	{gRarePage236, ARRAY_COUNT(gRarePage236)},
+	{gRarePage237, ARRAY_COUNT(gRarePage237)},
+	{gRarePage238, ARRAY_COUNT(gRarePage238)},
+	{gRarePage239, ARRAY_COUNT(gRarePage239)},
+	{gRarePage240, ARRAY_COUNT(gRarePage240)},
+	{gRarePage241, ARRAY_COUNT(gRarePage241)},
+	{gRarePage242, ARRAY_COUNT(gRarePage242)},
+	{gRarePage243, ARRAY_COUNT(gRarePage243)},
+	{gRarePage244, ARRAY_COUNT(gRarePage244)},
+	{gRarePage245, ARRAY_COUNT(gRarePage245)},
+	{gRarePage246, ARRAY_COUNT(gRarePage246)},
+	{gRarePage247, ARRAY_COUNT(gRarePage247)},
+	{gRarePage248, ARRAY_COUNT(gRarePage248)},
+	{gRarePage249, ARRAY_COUNT(gRarePage249)},
+	{gRarePage250, ARRAY_COUNT(gRarePage250)},
+	{gRarePage251, ARRAY_COUNT(gRarePage251)},
+	{gRarePage252, ARRAY_COUNT(gRarePage252)},
+	{gRarePage253, ARRAY_COUNT(gRarePage253)},
+	{gRarePage254, ARRAY_COUNT(gRarePage254)},
+	{gRarePage255, ARRAY_COUNT(gRarePage255)},
+	{gRarePage256, ARRAY_COUNT(gRarePage256)},
+	{gRarePage257, ARRAY_COUNT(gRarePage257)},
+	{gRarePage258, ARRAY_COUNT(gRarePage258)},
+	{gRarePage259, ARRAY_COUNT(gRarePage259)},
+	{gRarePage260, ARRAY_COUNT(gRarePage260)},
+	{gRarePage261, ARRAY_COUNT(gRarePage261)},
+	{gRarePage262, ARRAY_COUNT(gRarePage262)},
+	{gRarePage263, ARRAY_COUNT(gRarePage263)},
+	{gRarePage264, ARRAY_COUNT(gRarePage264)},
+	{gRarePage265, ARRAY_COUNT(gRarePage265)},
+	{gRarePage266, ARRAY_COUNT(gRarePage266)},
+	{gRarePage267, ARRAY_COUNT(gRarePage267)},
+	{gRarePage268, ARRAY_COUNT(gRarePage268)},
+	{gRarePage269, ARRAY_COUNT(gRarePage269)},
+	{gRarePage270, ARRAY_COUNT(gRarePage270)},
+	{gRarePage271, ARRAY_COUNT(gRarePage271)},
+	{gRarePage272, ARRAY_COUNT(gRarePage272)},
+	{gRarePage273, ARRAY_COUNT(gRarePage273)},
+	{gRarePage274, ARRAY_COUNT(gRarePage274)},
+	{gRarePage275, ARRAY_COUNT(gRarePage275)},
+	{gRarePage276, ARRAY_COUNT(gRarePage276)},
+	{gRarePage277, ARRAY_COUNT(gRarePage277)},
+	{gRarePage278, ARRAY_COUNT(gRarePage278)},
+	{gRarePage279, ARRAY_COUNT(gRarePage279)},
+	{gRarePage280, ARRAY_COUNT(gRarePage280)},
+	{gRarePage281, ARRAY_COUNT(gRarePage281)},
+	{gRarePage282, ARRAY_COUNT(gRarePage282)},
+	{gRarePage283, ARRAY_COUNT(gRarePage283)},
+	{gRarePage284, ARRAY_COUNT(gRarePage284)},
+	{gRarePage285, ARRAY_COUNT(gRarePage285)},
+	{gRarePage286, ARRAY_COUNT(gRarePage286)},
+	{gRarePage287, ARRAY_COUNT(gRarePage287)},
 };
 
 const struct Habitat gHabitatPtrsTable[9] =

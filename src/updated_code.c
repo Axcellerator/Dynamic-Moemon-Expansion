@@ -189,6 +189,9 @@ u16 TryGetFemaleGenderedSpecies(u16 species, u32 personality)
 			case SPECIES_PYROAR:
 				species = SPECIES_PYROAR_FEMALE;
 				break;
+			case SPECIES_BASCULEGION:
+				species = SPECIES_BASCULEGION_F;
+				break;
 		}
 	}
 	else if (species == SPECIES_XERNEAS && !gMain.inBattle)
@@ -430,4 +433,10 @@ static u16 LoadNationalPokedexView(void)
 	}
 
 	return lastMeaningfulIndex;
+}
+
+//New
+const struct CompressedSpritePalette* GetMGiftMonPal(u16 species, u8 isShiny)
+{
+		return isShiny ? &gMonShinyPaletteTable[species] : &gMonPaletteTable[species];
 }

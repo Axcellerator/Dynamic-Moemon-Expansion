@@ -1401,7 +1401,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SCEPTILE] =
 	{
 		.size = 0x88,
-		.y_offset = 0x0,
+		.y_offset = 0x1,
 	},
 	[SPECIES_TORCHIC] =
 	{
@@ -4201,7 +4201,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_ASHGRENINJA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x5,
 	},
 	[SPECIES_FLABEBE_BLUE] =
 	{
@@ -4598,12 +4598,12 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x1,
 	},
-	[SPECIES_DIALGA_PRIMAL] =
+	[SPECIES_DIALGA_ORIGIN] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-	[SPECIES_PALKIA_PRIMAL] =
+	[SPECIES_PALKIA_ORIGIN] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
@@ -4711,7 +4711,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_DECIDUEYE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x1,
+		.y_offset = 0x0,
 	},
 	[SPECIES_LITTEN] =
 	{
@@ -6342,6 +6342,5146 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
+	},
+	[SPECIES_MISSINGNO] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_WYRDEER] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_VOLTORB_H] = 
+	{
+		.size = 0x44,
+		.y_offset = 0x11,
+	},
+	[SPECIES_ELECTRODE_H] =
+	{
+		.size = 0x55,
+		.y_offset = 0xb,
+	},
+	[SPECIES_URSALUNA] =
+	{
+		.size = 0x78,
+		.y_offset = 0x2,
+	},
+	[SPECIES_BRAVIARY_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x1,
+	},
+	[SPECIES_QWILFISH_H] =
+	{
+		.size = 0x56,
+		.y_offset = 0x8,
+	},
+	[SPECIES_OVERQWIL] =
+	{
+		.size = 0x56,
+		.y_offset = 0x4,
+	},
+	[SPECIES_DECIDUEYE_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_SAMUROTT_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_TYPHLOSION_H] =
+	{
+		.size = 0x78,
+		.y_offset = 0x0,
+	},
+	[SPECIES_SNEASEL_H] =
+	{
+		.size = 0x67,
+		.y_offset = 0x8,
+	},
+	[SPECIES_SNEASLER] =
+	{
+		.size = 0x67,
+		.y_offset = 0x8,
+	},
+	[SPECIES_ZORUA_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x1,
+	},
+	[SPECIES_ZOROARK_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x2,
+	},
+	[SPECIES_GROWLITHE_H] =
+	{
+		.size = 0x65,
+		.y_offset = 0xb,
+	},
+	[SPECIES_ARCANINE_H] =
+	{
+		.size = 0x88,
+		.y_offset = 0x2,
+	},
+	[SPECIES_BASCULIN_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0xd,
+	},
+	[SPECIES_BASCULEGION] =
+	{
+		.size = 0x0,
+		.y_offset = 0x2,
+	},
+	[SPECIES_KLEAVOR] =
+	{
+		.size = 0x88,
+		.y_offset = 0x2,
+	},
+	[SPECIES_LUGIA_S] =
+	{
+		.size = 0x88,
+		.y_offset = 0x0,
+	},
+	[SPECIES_AVALUGG_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x4,
+	},
+	[SPECIES_LILLIGANT_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_SLIGGOO_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x6,
+	},
+	[SPECIES_GOODRA_H] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_ENAMORUS] =
+	{
+		.size = 0x0,
+		.y_offset = 0x1,
+	},
+	[SPECIES_ENAMORUS_T] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_BASCULEGION_F] =
+	{
+		.size = 0x0,
+		.y_offset = 0x2,
+	},
+	[SPECIES_S1] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S2] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S3] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S4] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S5] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S6] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S7] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S8] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S9] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S10] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S11] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S12] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S13] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S14] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S15] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S16] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S17] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S18] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S19] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S20] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S21] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S22] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S23] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S24] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S25] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S26] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S27] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S28] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S29] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S30] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S31] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S32] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S33] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S34] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S35] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S36] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S37] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S38] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S39] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S40] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S41] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S42] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S43] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S44] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S45] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S46] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S47] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S48] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S49] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S50] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S51] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S52] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S53] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S54] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S55] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S56] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S57] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S58] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S59] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S60] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S61] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S62] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S63] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S64] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S65] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S66] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S67] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S68] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S69] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S70] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S71] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S72] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S73] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S74] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S75] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S76] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S77] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S78] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S79] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S80] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S81] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S82] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S83] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S84] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S85] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S86] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S87] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S88] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S89] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S90] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S91] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S92] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S93] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_CUBBURN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_FLAMBEAR] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_BRUINUS] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_PALSSIO] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_PRESSIO] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_DONMARIN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_VULPII] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_BURGELA] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_JUNGELA] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_HANEEI] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_KAZAPPELIN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_ORFRY] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_MOLAMBINO] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_ANGORE] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_LUREEL] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_PARASPOR] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_MIMMEO] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_DODAERIE] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_COINPUR] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_MOIBELLE] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_BELLEDAM] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_KOLTA] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_DISTURBAN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_SMUJJ] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_PUPPERON] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_BELLIGNAN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_GRENMAR] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_TYKER] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_STRAIGAR] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_LUXWAN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_STROMEN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_PHANDARIN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_TRICULES] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_WARFURS] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_WEARLYCAN] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_GOROCHU] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_MISSINGNO_YELLOW] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_MISSINGNO_GHOST] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_MISSINGNO_FOSSIL] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S133] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S134] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S135] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S136] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S137] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S138] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S139] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S140] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S141] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S142] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S143] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S144] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S145] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S146] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S147] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S148] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S149] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S150] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S151] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S152] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S153] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S154] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S155] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S156] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S157] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S158] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S159] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S160] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S161] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S162] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S163] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S164] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S165] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S166] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S167] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S168] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S169] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S170] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S171] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S172] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S173] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S174] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S175] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S176] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S177] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S178] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S179] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S180] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S181] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S182] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S183] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S184] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S185] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S186] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S187] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S188] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S189] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S190] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S191] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S192] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S193] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S194] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S195] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S196] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S197] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S198] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S199] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S200] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S201] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S202] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S203] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S204] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S205] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S206] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S207] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S208] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S209] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S210] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S211] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S212] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S213] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S214] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S215] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S216] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S217] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S218] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S219] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S220] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S221] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S222] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S223] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S224] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S225] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S226] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S227] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S228] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S229] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S230] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S231] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S232] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S233] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S234] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S235] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S236] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S237] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S238] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S239] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S240] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S241] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S242] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S243] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S244] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S245] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S246] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S247] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S248] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S249] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S250] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S251] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S252] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S253] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S254] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S255] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S256] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S257] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S258] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S259] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S260] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S261] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S262] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S263] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S264] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S265] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S266] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S267] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S268] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S269] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S270] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S271] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S272] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S273] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S274] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S275] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S276] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S277] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S278] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S279] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S280] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S281] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S282] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S283] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S284] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S285] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S286] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S287] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S288] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S289] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S290] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S291] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S292] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S293] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S294] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S295] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S296] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S297] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S298] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S299] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S300] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S301] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S302] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S303] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S304] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S305] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S306] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S307] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S308] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S309] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S310] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S311] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S312] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S313] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S314] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S315] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S316] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S317] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S318] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S319] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S320] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S321] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S322] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S323] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S324] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S325] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S326] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S327] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S328] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S329] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S330] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S331] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S332] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S333] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S334] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S335] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S336] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S337] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S338] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S339] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S340] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S341] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S342] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S343] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S344] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S345] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S346] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S347] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S348] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S349] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S350] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S351] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S352] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S353] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S354] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S355] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S356] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S357] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S358] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S359] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S360] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S361] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S362] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S363] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S364] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S365] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S366] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S367] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S368] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S369] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S370] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S371] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S372] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S373] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S374] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S375] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S376] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S377] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S378] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S379] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S380] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S381] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S382] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S383] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S384] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S385] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S386] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S387] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S388] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S389] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S390] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S391] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S392] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S393] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S394] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S395] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S396] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S397] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S398] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S399] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S400] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S401] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S402] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S403] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S404] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S405] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S406] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S407] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S408] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S409] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S410] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S411] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S412] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S413] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S414] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S415] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S416] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S417] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S418] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S419] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S420] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S421] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S422] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S423] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S424] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S425] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S426] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S427] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S428] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S429] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S430] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S431] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S432] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S433] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S434] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S435] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S436] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S437] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S438] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S439] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S440] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S441] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S442] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S443] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S444] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S445] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S446] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S447] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S448] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S449] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S450] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S451] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S452] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S453] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S454] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S455] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S456] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S457] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S458] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S459] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S460] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S461] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S462] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S463] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S464] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S465] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S466] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S467] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S468] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S469] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S470] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S471] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S472] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S473] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S474] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S475] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S476] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S477] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S478] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S479] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S480] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S481] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S482] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S483] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S484] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S485] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S486] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S487] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S488] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S489] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S490] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S491] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S492] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S493] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S494] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S495] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S496] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S497] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S498] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S499] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S500] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S501] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S502] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S503] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S504] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S505] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S506] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S507] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S508] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S509] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S510] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S511] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S512] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S513] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S514] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S515] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S516] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S517] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S518] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S519] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S520] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S521] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S522] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S523] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S524] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S525] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S526] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S527] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S528] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S529] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S530] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S531] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S532] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S533] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S534] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S535] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S536] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S537] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S538] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S539] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S540] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S541] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S542] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S543] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S544] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S545] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S546] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S547] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S548] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S549] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S550] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S551] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S552] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S553] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S554] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S555] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S556] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S557] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S558] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S559] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S560] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S561] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S562] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S563] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S564] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S565] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S566] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S567] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S568] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S569] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S570] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S571] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S572] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S573] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S574] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S575] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S576] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S577] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S578] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S579] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S580] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S581] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S582] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S583] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S584] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S585] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S586] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S587] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S588] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S589] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S590] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S591] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S592] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S593] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S594] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S595] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S596] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S597] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S598] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S599] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S600] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S601] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S602] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S603] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S604] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S605] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S606] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S607] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S608] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S609] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S610] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S611] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S612] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S613] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S614] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S615] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S616] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S617] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S618] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S619] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S620] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S621] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S622] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S623] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S624] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S625] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S626] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S627] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S628] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S629] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S630] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S631] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S632] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S633] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S634] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S635] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S636] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S637] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S638] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S639] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S640] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S641] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S642] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S643] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S644] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S645] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S646] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S647] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S648] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S649] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S650] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S651] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S652] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S653] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S654] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S655] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S656] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S657] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S658] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S659] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S660] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S661] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S662] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S663] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S664] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S665] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S666] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S667] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S668] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S669] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S670] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S671] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S672] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S673] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S674] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S675] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S676] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S677] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S678] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S679] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S680] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S681] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S682] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S683] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S684] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S685] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S686] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S687] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S688] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S689] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S690] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S691] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S692] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S693] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S694] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S695] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S696] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S697] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S698] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S699] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S700] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S701] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S702] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S703] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S704] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S705] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S706] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S707] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S708] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S709] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S710] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S711] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S712] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S713] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S714] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S715] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S716] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S717] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S718] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S719] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S720] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S721] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S722] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S723] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S724] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S725] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S726] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S727] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S728] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S729] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S730] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S731] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S732] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S733] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S734] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S735] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S736] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S737] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S738] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S739] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S740] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S741] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S742] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S743] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S744] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S745] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S746] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S747] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S748] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S749] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S750] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S751] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S752] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S753] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S754] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S755] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S756] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S757] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S758] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S759] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S760] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S761] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S762] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S763] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S764] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S765] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S766] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S767] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S768] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S769] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S770] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S771] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S772] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S773] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S774] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S775] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S776] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S777] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S778] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S779] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S780] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S781] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S782] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S783] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S784] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S785] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S786] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S787] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S788] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S789] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S790] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S791] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S792] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S793] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S794] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S795] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S796] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S797] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S798] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S799] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S800] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S801] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S802] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S803] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S804] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S805] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S806] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S807] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S808] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S809] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S810] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S811] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S812] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S813] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S814] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S815] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S816] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S817] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S818] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S819] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S820] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S821] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S822] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S823] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S824] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S825] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S826] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S827] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S828] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S829] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S830] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S831] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S832] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S833] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S834] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S835] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S836] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S837] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S838] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S839] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S840] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S841] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S842] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S843] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S844] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S845] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S846] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S847] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S848] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S849] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S850] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S851] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S852] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S853] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S854] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S855] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S856] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S857] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S858] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S859] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S860] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S861] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S862] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S863] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S864] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S865] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S866] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S867] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S868] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S869] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S870] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S871] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S872] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S873] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S874] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S875] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S876] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S877] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S878] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S879] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S880] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S881] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S882] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S883] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S884] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S885] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S886] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S887] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S888] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S889] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S890] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S891] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S892] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S893] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S894] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S895] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S896] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S897] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S898] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S899] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S900] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S901] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S902] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S903] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S904] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S905] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S906] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S907] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S908] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S909] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S910] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S911] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S912] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S913] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S914] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S915] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S916] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S917] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S918] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S919] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S920] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S921] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S922] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S923] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S924] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S925] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S926] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S927] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S928] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S929] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S930] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S931] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S932] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S933] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S934] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S935] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S936] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S937] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S938] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S939] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S940] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S941] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S942] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S943] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S944] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S945] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S946] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S947] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S948] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S949] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S950] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S951] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S952] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S953] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S954] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S955] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S956] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S957] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S958] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S959] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S960] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S961] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S962] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S963] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S964] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S965] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S966] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S967] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S968] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S969] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S970] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S971] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S972] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S973] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S974] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S975] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S976] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S977] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S978] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S979] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S980] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S981] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S982] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S983] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S984] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S985] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S986] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S987] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S988] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S989] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S990] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S991] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S992] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S993] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S994] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S995] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S996] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S997] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S998] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S999] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
+	},
+	[SPECIES_S1000] =
+	{
+	.size = 0x0,
+	.y_offset = 0x0,
 	},
 };
 
